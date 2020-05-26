@@ -1,0 +1,115 @@
+body{
+    background-color:white;
+}
+/***Navbar***/
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom:1px solid lightgrey; ;
+}
+.navbar-brand{
+    background-color: teal;
+    padding: 20px 20px;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover{
+    color: #fff;
+}
+.navbar-nav{
+    justify-content: center;
+}
+.nav-item{
+    border-right: 1px solid #ccc;
+}
+.nav-item:last-child{
+    border-right: none;
+}
+.navbar-nav .nav-link{
+    padding: 0.5rem;
+}
+@media (max-width: 991px){
+    .navbar .container-lg,
+    .navbar-brand{
+        display:block;
+    }
+
+    .navbar-brand{
+        text-align: center;
+        margin-right: -1rem;
+        margin-left: -1rem;
+    }
+    .navbar-nav {
+        text-align: center;
+        flex-direction: row;
+    }
+}
+
+
+
+
+/***Main***/
+main{
+    background-color: #ccc;
+    height: 900px;
+  
+}
+main.container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.content-box{
+    background-color: #fff;
+    padding: 20px;
+}
+/***footer***/
+footer{
+    text-align: center;
+    background-color: gray;
+    border-top: teal 4px solid;
+    padding-bottom: 40px;
+    padding-top:40px ;
+    color: #fff;
+    font-size: 0.8em;
+    max-height:5%;
+    height: 5%;
+    
+}
+img {
+    padding:20px;
+}
+h1 {
+    color: teal;
+    margin: 10px;
+}
+p {
+    color: gray;
+   font-size: larger;
+   padding:1em;
+   line-height: 1.7;
+    
+}
+/* contact page form submit button */
+.btn-color{
+    background-color: teal;
+    color:#fff;
+}
+
+.portfolio-image{
+    padding: 0px;
+    width: 300px;
+}
+
+.projects {
+    position: relative;
+    bottom: 60px; 
+    background-color: teal; 
+    color: white; 
+    width: 300px; 
+    padding:10px;
+    text-align: center;
+}
+
+form {
+    padding: 5%;
+    margin: 5%;
+}
