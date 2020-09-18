@@ -7,4 +7,4 @@ https://edatez.github.io/Portfolio_updated/
 
 
 # Here are some screenshots: 
-![Portfolio page screenshot](./Assets/images/screenshot_portfolio.png)
+![Portfolio page screenshot](./Assets/Images/screenshot_portfolio.png)
